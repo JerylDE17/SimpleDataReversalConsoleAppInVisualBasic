@@ -21,9 +21,16 @@
         Console.ReadLine()
     End Sub
 
-    Sub DisplayResult(reversedFirstName As String, reversedLastName As String, reversedAge As String, reversedBirthPlace As String)
+    Sub DisplayResult(reversedFirstName As String,
+                      reversedLastName As String,
+                      reversedAge As String,
+                      reversedBirthPlace As String)
         Console.Write("Results: ")
-        Console.Write("{0} {1} {2} {3}", reversedFirstName, reversedLastName, reversedAge, reversedBirthPlace)
+        Console.Write("{0} {1} {2} {3}",
+                      reversedFirstName,
+                      reversedLastName,
+                      reversedAge,
+                      reversedBirthPlace)
     End Sub
 
     Function getReversedString(ByVal message As String) As String
